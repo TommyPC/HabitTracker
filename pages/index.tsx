@@ -13,11 +13,16 @@ const IndexPage = () => {
     { name: 'Code' },
   ]);
 
-  const removeHabit = (index) => {
+  const removeHabit = (index: number) => {
     setHabitsData((prevHabits) => prevHabits.filter((_, i) => i !== index));
   };
 
-  const addHabit = (habit) => {
+  type Habit = {
+    name: string;
+  };
+
+  
+  const addHabit = (habit: Habit) => {
     setHabitsData((prevHabits) => [...prevHabits, habit]);
   };
 
