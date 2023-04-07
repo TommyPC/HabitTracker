@@ -1,0 +1,11 @@
+/* MonthlyHeatmap.module.css */
+.monthlyHeatmap {
+    margin-bottom: 16px; /* Space between each month */
+  }
+  
+  .monthLabel {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  

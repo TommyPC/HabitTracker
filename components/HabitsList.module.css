@@ -1,0 +1,57 @@
+.habitsList {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    display: flex;
+  }
+  
+  .habitRow {
+    display: flex;
+    align-items: center;
+  }
+  
+  .habitName {
+    flex: 0 0 20%;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .daysContainer,
+  .checkboxesContainer {
+    flex: 0 0 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .day {
+    text-align: center;
+  }
+  
+  .checkboxWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .removeButton,
+  .addButton {
+    flex: 0 0 calc(20% - 2rem);
+    /* Add any additional styling for the buttons here */
+  }
+  
+  .newHabitInput {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .checkboxWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  

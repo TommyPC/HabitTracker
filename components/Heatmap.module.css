@@ -1,0 +1,27 @@
+.heatmap {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(7, calc(2px + 5vh));
+}
+
+.cell {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 6px;
+}
+
+.noCompletion {
+  background-color: #D3D3D3;
+}
+
+.lowCompletion {
+  background-color: #c6e48b;
+}
+
+.mediumCompletion {
+  background-color: #7bc96f;
+}
+
+.highCompletion {
+  background-color: #239a3b;
+}

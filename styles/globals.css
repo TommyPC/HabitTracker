@@ -87,18 +87,44 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: white; /* Adjust the background color as needed */
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+
+.react-calendar-heatmap rect {
+  stroke: #ffffff;
+  stroke-width: 1;
+}
+
+.color-empty {
+  fill: #ebedf0;
+}
+
+.color-scale-0 {
+  fill: #c6e48b;
+}
+
+.color-scale-1 {
+  fill: #7bc96f;
+}
+
+.color-scale-2 {
+  fill: #239a3b;
+}
+
+.color-scale-3 {
+  fill: #196127;
+}
+
+.color-scale-4 {
+  fill: #123b0f;
+}
+
+
 
 @media (prefers-color-scheme: dark) {
   html {

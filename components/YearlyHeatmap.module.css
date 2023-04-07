@@ -1,0 +1,14 @@
+.yearlyHeatmap {
+    display: grid;
+    grid-template-columns: repeat(53, 1fr);
+    grid-template-rows: repeat(7, 1fr); 
+    grid-auto-flow: column;
+    gap: 2px;
+  }
+  
+  .cell {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+  }
+  
